@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#telgram{
+    height: 100vh;
+    border: solid black ;
+    display: flex;
+}
+#telgram>.head_tel{
+    width: 5%;
+    height: 100%;
+    border: solid none ;
+    background-color :#17212B;
+}
+#telgram>.ican_tel{
+    width: 34%;
+    height: 100%;
+    border: solid none ;
+    background-color :#17212B;
+}
+
+#telgram>.chat_tel{
+    width: 61%;
+    height: 100%;
+    border: solid none ;
+    background-color :#0E1621;
+}
+
+#telgram>.head_tel>.icon>img{
+    width: 2vw;
+    background-color :#17212B;
+    margin-top: 20%;
+    margin-left: 30%;
+}
+#telgram>.head_tel>.icon2>img{
+    width: 2vw;
+    background-color :#17212B;
+    margin-top: 7%;
+    margin-left: 30%;
+}
+#telgram>.head_tel>.icon3>img{
+    width: 2.2vw;
+    background-color :#17212B;
+    margin-left: 29%;
+}
+#telgram>.head_tel>.icon4>img{
+    width: 2.2vw;
+    background-color :#17212B;
+    margin-left: 29%;
+}
+
+
+#telgram>.ican_tel>.input3>input{
+        width: 33vw;
+        height: 4%;
+        padding: 8px;
+        border: none;
+        outline: none;
+        margin-left: 1%;
+        border-radius: 10px;
+        background-color: #131b23;
+        color: white;
+}
+#telgram>.ican_tel>.peploe{
+    width: 100%;
+    height: 94%;
+    border: solid none ;
+    margin-top: 2%;
+    overflow: hidden;
+}
+#telgram>.ican_tel>.peploe>.odamlar>img{
+    
+    width: 10%;
+    border-radius: 50%;
+}
+#telgram>.ican_tel>.peploe>.odamlar{
+    color: white;
+    border: solid #303c48 ;
+    width: 100%;
+    display: flex;
+}
+#telgram>.ican_tel>.peploe>.odamlar>.p{
+    display: block;
+    left: 9vw;
+    top: 4.6vw;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.608);
+
+}
+

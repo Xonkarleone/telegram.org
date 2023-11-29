@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #212121;
+}
+
+
+#telgram{
+    width: 98vw;
+    height: 115vh;
+    border: red none;
+
+}
+#telgram>.img{
+    width: 11%;
+    border: blue none;
+    margin: 7%;
+    margin-left: 44vw;
+}
+#telgram>.img>img{
+    width: 90px;
+    height: 90px;
+}
+
+#telgram>.text_t{
+    width: 220px;
+    height: 100px;
+    border: blue none;
+    margin-top: -14vh;
+    margin-left: 37vw;
+    color: white;
+}
+#telgram>.text_t>h3{
+    text-align: center;
+    margin-top: 5vh;
+}
+#telgram>.text_t>p{
+    text-align: center;
+    font-size: 1.1vw;
+    color: rgba(255, 255, 255, 0.571);
+}
+#telgram>.input3>.select{
+    width: 22vw;
+    height: 7vh;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: 1px rgba(255, 255, 255, 0.384) solid;
+    border-radius:1vw ;
+    margin-left: 39vw;
+
+}
+
+#telgram>.input3>.select option {
+    color: black;
+}
+
+#telgram>.input3>.input{
+
+    width: 22vw;
+    height: 7vh;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: 1px rgba(255, 255, 255, 0.384) solid;
+    border-radius:1vw ;
+    margin-left: 39vw;
+    margin-top: 2vh;
+}
+#telgram>.input3>.che{
+    display: flex;
+    color: white;
+}
+#telgram>.input3>.che>input{
+    margin-left: 39vw;
+    margin-top: 15px;
+}
+#telgram>.input3>.che>p{
+    margin-left: 3vw;
+    margin-top: 15px;
+    font-size: 1.2vw;
+}
+.button>button{
+    width: 290px;
+    height: 7vh;
+    margin-left: 34vw;
+    background-color: #00000000;
+    color: #8774E1;
+    font-size: 1.2vw;
+    border-style: none;
+    border-radius: 1vw;
+    margin-top: 1vw;
+}
+.button>button>a{
+    color: #8774E1;
+    text-decoration: none;
+}
+#telgram>.button>button:hover{
+    background-color: #8674e110;
+}
